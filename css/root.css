@@ -1,15 +1,12 @@
 /*font*/
-
 @font-face {
     font-family: "JetbrainsMonoNF";
     src: url("../fonts/JetBrainsMonoNerdFont-Regular.ttf") format("truetype");
 }
-
 @font-face {
     font-family: "Dotimpact";
     src: url("../fonts/MPF-DOTIMPACT.ttf") format("truetype");
 }
-
 
 :root {
 
@@ -25,13 +22,11 @@
     --xxlfs: clamp(2rem, 6vw, 6rem);
 
     /*colors*/
-    /*f = full*/
-    /*t = translucent*/
 
     --fg: #101112;
     --bg: #0d0e0e;
 
-    --primary: #fff;
+    --text: #fff;
     --secondary: #000000;
 
     --red: #ff355e;
@@ -45,6 +40,6 @@
     --bg: #ffffff;
     --fg: #131315;
 
-    --primary: #000000;
+    --text: #000000;
 
 }
