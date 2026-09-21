@@ -58,21 +58,32 @@
     object-fit: contain;
 }
 
-#experience-bars {
+#experience-container {
     min-height: 25rem;
     width: 100%;
-    background-color: var();
+    background-color: var(--accent);
     border-radius: 0.5rem;
+    padding: 2rem;
 }
 
+.experience-bars{
+    width: 90%;
+    height: 1rem;
+    background-color: var(--fg);
+    border-radius: 0.5rem;
+
+}
+
+#html-bar {
+    width: 50%;
+    height: 100%;
+    background-color: var(--accent);
+    border-radius: 0.5rem;
+}
 
 /*mobile css*/
 @media (max-width: 768px) {
     #pfp {
         width: 100%;
     }
-
-
 }
-
-

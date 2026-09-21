@@ -11,8 +11,8 @@ header {
     border-bottom-right-radius: 1rem;
 
     background-color: var(--fg);
-    background-image: linear-gradient(to right, var(--white) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--white) 1px, transparent 1px);
+    background-image: linear-gradient(to right, var(--accent-alt) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--accent-alt) 1px, transparent 1px);
     background-size: 40px 40px;
 
     font-family: var(--secondary-font);
