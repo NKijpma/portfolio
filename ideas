@@ -7,8 +7,6 @@ auto scrolling carousel looping is prob done with javascript
 
 make all icons self!?! (maybe idk)
 
-auto update age
-
 add custom scroll bar underneath the nav bar / white progress bar
 
 make less particles spawn when on mobile (use maybe js mobile check and if true spawn 30 if false 120)
