@@ -61,7 +61,7 @@
 #experience-bars {
     min-height: 25rem;
     width: 100%;
-    background-color: var(--red);
+    background-color: var();
     border-radius: 0.5rem;
 }
 
