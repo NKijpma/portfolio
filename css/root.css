@@ -1,0 +1,50 @@
+/*font*/
+
+@font-face {
+    font-family: "JetbrainsMonoNF";
+    src: url("../fonts/JetBrainsMonoNerdFont-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Dotimpact";
+    src: url("../fonts/MPF-DOTIMPACT.ttf") format("truetype");
+}
+
+
+:root {
+
+    /*font*/
+    --primary-font: "JetbrainsMonoNF", monospace;
+    --secondary-font: "Dotimpact", monospace;
+
+    /*font sizes*/
+    --smallfs: clamp(0.75rem, 1.5vw, 0.875rem);
+    --mediumfs: clamp(0.875rem, 2vw, 1rem);
+    --largefs: clamp(1rem, 2.5vw, 1.25rem);
+    --xlfs: clamp(1.25rem, 3vw, 2rem);
+    --xxlfs: clamp(2rem, 6vw, 6rem);
+
+    /*colors*/
+    /*f = full*/
+    /*t = translucent*/
+
+    --foreground: #121515;
+    --background: #141414;
+
+    --primary: #fff;
+    --secondary: #000000;
+
+    --red: #ff355e;
+    --white: #cccccc;
+    --grey: #141816;
+
+}
+
+:root[data-theme="light"] {
+
+    --background: #ffffff;
+    --foreground: #131315;
+
+    --primary: #000000;
+
+}

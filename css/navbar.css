@@ -1,0 +1,55 @@
+nav {
+    position: fixed;
+    z-index: 999;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 100%;
+
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+
+    background-color: var(--grey);
+    font-family: JetbrainsMonoNF;
+
+}
+
+#theme-switcher {
+    justify-self: start;
+    width: 2rem;
+}
+
+#navigation {
+    justify-self: center;
+    letter-spacing: 6px;
+}
+
+#github {
+    justify-self: end;
+    line-height: 1;
+}
+
+#github-icon {
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
+
+
+/*mobile css*/
+@media (max-width: 768px) {
+
+    .nav-link {
+        display: none;
+    }
+
+    #github-name {
+        display: none;
+    }
+
+    #github-icon, #theme-switcher {
+        margin: 0 ;
+    }
+
+
+}
