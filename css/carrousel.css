@@ -65,3 +65,11 @@
 #slider-nav a:hover {
     opacity: 1;
 }
+
+/*mobile css*/
+@media (max-width: 768px){
+    #slider-wrapper {
+        width: 100%;
+    }
+
+}
