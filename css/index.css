@@ -1,6 +1,6 @@
 
 html {
-    background: var(--background);
+    background-color: var(--bg);
     color: var(--primary);
     font-family: var(--primary-font);
     scroll-behavior: smooth;

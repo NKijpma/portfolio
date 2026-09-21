@@ -28,8 +28,8 @@
     /*f = full*/
     /*t = translucent*/
 
-    --foreground: #121515;
-    --background: #141414;
+    --fg: #101112;
+    --bg: #0d0e0e;
 
     --primary: #fff;
     --secondary: #000000;
@@ -42,8 +42,8 @@
 
 :root[data-theme="light"] {
 
-    --background: #ffffff;
-    --foreground: #131315;
+    --bg: #ffffff;
+    --fg: #131315;
 
     --primary: #000000;
 

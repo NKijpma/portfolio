@@ -22,7 +22,7 @@
     justify-content: space-between;
 
     width: 80%;
-    background: #171717;
+    background-color: var(--fg);
 
     box-shadow: rgb(255 255 255 / 0.2) 0 2px 4px, rgb(246 246 246 / 0.15) 0 7px 13px -3px, rgb(243 243 243 / 0.05) 0 -3px 0 inset;
     padding: 1rem;
