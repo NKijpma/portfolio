@@ -37,6 +37,14 @@ header {
     animation: fade-out 1.4s ease-in-out infinite;
 }
 
+#wheel {
+    animation: rotate 2s linear infinite;
+    width: 20%;
+    position: absolute;
+    bottom: -25%;
+    left: -8%;
+}
+
 
 /*mobile css*/
 @media (max-width: 768px) {
