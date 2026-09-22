@@ -23,7 +23,7 @@ header {
     font-size: var(--xxlfs);
 
     left: 50%;
-    top: 44%;
+    top: 40%;
     transform: translateX(-50%);
     position: absolute;
 

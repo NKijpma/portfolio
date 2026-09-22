@@ -24,7 +24,7 @@
     --mediumfs: clamp(0.875rem, 2vw, 1rem);
     --largefs: clamp(1rem, 2.5vw, 1.25rem);
     --xlfs: clamp(1.25rem, 3vw, 2rem);
-    --xxlfs: clamp(2rem, 6vw, 6rem);
+    --xxlfs: clamp(5rem, 9vw, 9rem);
 
     /*colors*/
     --bg: #0a0b0d;
@@ -46,17 +46,15 @@
     --fg-alt: #ececea;
 
     --text: #1a1a1a;
-    --text-muted: #6b6b6b;
 
     --navbar: rgb(255 255 255 / 0.8);
 
     --accent: #c0392b;
     --accent-alt: #e74c3c;
 
-    --border: #d4d4d2;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     :root {
         --cursor-size: 0;
 
