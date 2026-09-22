@@ -9,3 +9,4 @@ slider.addEventListener('scrollend', () => {
         slider.style.scrollBehavior = 'smooth';
     }
 });
+

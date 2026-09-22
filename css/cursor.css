@@ -1,0 +1,51 @@
+.custom-cursor {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+
+    border: calc(var(--cursor-size)
+    / 15) solid var(--cursor-color);
+    border-radius: 50%;
+
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+
+    font-size: var(--cursor-size);
+    color: var(--cursor-color);
+
+    pointer-events: none;
+
+    transition: opacity .25s;
+
+
+}
+
+.custom-cursor::before {
+    content: "";
+    display: block;
+    width: calc(var(--cursor-size) / 2);
+    height: calc(var(--cursor-size) / 2);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: var(--cursor-color);
+    border-radius: 50%;
+
+    animation: cursor-before 800ms infinite alternate ease-in-out;
+}
+
+.custom-cursor.click {
+    animation: cursor-click 800ms normal ease-in-out;
+}
+
+.custom-cursor.leave {
+    opacity: 0;
+}
+
+.custom-cursor.enter {
+    opacity: 1;
+}

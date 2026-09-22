@@ -10,6 +10,10 @@
 }
 
 :root {
+    /*cursor*/
+    --cursor-size: 24px;
+    --cursor-color: #7bf7ff;
+
 
     /*font*/
     --primary-font: "JetbrainsMonoNF", monospace;
@@ -23,12 +27,11 @@
     --xxlfs: clamp(2rem, 6vw, 6rem);
 
     /*colors*/
+    --bg: #0a0b0d;
+    --fg: #0f1011;
 
-    --fg: #101112;
-    --bg: #0d0e0e;
-
-    --text: #fff;
-    --navbar: rgb(0 9 12 / 0.8);
+    --text: #e2dfda;
+    --navbar: rgb(8 9 10 / 0.75);
 
     --accent: #ff355e;
     --accent-alt: rgb(176 176 176 / 0.9);
@@ -36,11 +39,27 @@
 }
 
 :root[data-theme="light"] {
+    --bg: #f5f5f4;
+    --bg-alt: #e8e7e5;
 
-    --bg: #ffffff;
-    --fg: #131315;
+    --fg: #ffffff;
+    --fg-alt: #ececea;
 
-    --text: #000000;
+    --text: #1a1a1a;
+    --text-muted: #6b6b6b;
 
+    --navbar: rgb(255 255 255 / 0.8);
+
+    --accent: #c0392b;
+    --accent-alt: #e74c3c;
+
+    --border: #d4d4d2;
+}
+
+@media (max-width: 768px){
+    :root {
+        --cursor-size: 0;
+
+    }
 
 }

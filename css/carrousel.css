@@ -19,6 +19,7 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     scroll-snap-align: start;
+    scrollbar-width: none;
 
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 0.5rem;
@@ -51,23 +52,34 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
+
+
 }
 
 #slider-nav a {
+    position: relative;
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
     background-color: #fff;
     opacity: 0.75;
     transition: opacity ease 0.25s;
+
 }
+
+#slider-nav a::after {
+    content: "";
+    position: absolute;
+    inset: -10px;
+}
+
 
 #slider-nav a:hover {
     opacity: 1;
 }
 
 /*mobile css*/
-@media (max-width: 768px){
+@media (max-width: 768px) {
     #slider-wrapper {
         width: 87%;
     }

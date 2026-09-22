@@ -5,10 +5,11 @@ html {
     font-family: var(--primary-font);
     scroll-behavior: smooth;
     overscroll-behavior-y: none;
-    scrollbar-width: thin;
+    scrollbar-width: none;
     scrollbar-color: #ececec transparent;
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -19,8 +20,14 @@ body {
 
 }
 
+html, body {
+    height: 100%;
+
+}
+
 * {
     box-sizing: border-box;
+    cursor: none;
 }
 
 i {
@@ -35,3 +42,9 @@ a {
     color: inherit;
 }
 
+@media (max-width: 768px) {
+    * {
+        cursor: auto !important;
+    }
+
+}

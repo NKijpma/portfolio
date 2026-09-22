@@ -1,3 +1,28 @@
+@keyframes cursor {
+    from {
+        transform: scale(1);
+        border-color: #fff;
+    }
+
+    to {
+        transform: scale(1.5);
+        border-color: rgb(var(--text));
+    }
+}
+
+@keyframes cursor-click {
+
+    0%, 100% {
+        transform: scale(1);
+        color: #ff355e;
+
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+
 @keyframes fade-in {
     from {
         opacity: 0;

@@ -16,6 +16,7 @@
     <!-- root & index -->
     <link href="css/root.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet">
+    <link href="css/cursor.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 
     <!-- css -->
@@ -27,11 +28,12 @@
     <link href="css/carrousel.css" rel="stylesheet">
 </head>
 <body>
+<div class="custom-cursor"></div>
 
 <!-- navigation-bar -->
 <nav>
 
-    <div id="theme-switcher"> </div>
+    <div id="theme-switcher" onclick="toggleTheme()"></div>
 
     <div id="navigation">
         <a class="nav-link" href="#home"></a>
@@ -125,6 +127,7 @@
     <div id="CV-download">󰥥</div>
 </footer>
 
+<script defer src="js/custom-cursor.js"></script>
 <script defer src="js/theme-switcher.js"></script>
 <script defer src="js/carrousel.js"></script>
 <script defer src="js/age.js"></script>
