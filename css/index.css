@@ -25,9 +25,15 @@ html, body {
 
 }
 
+
 * {
     box-sizing: border-box;
     cursor: none;
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
 }
 
 i {
