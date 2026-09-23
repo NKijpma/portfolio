@@ -6,6 +6,7 @@ header {
 
     position: relative;
     overflow: hidden;
+    display: flex;
 
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -16,6 +17,7 @@ header {
     background-size: 40px 40px;
 
     font-family: var(--secondary-font);
+
 
 }
 
@@ -38,13 +40,12 @@ header {
 }
 
 #wheel {
+    align-self: flex-end;
     animation: rotate 2s linear infinite;
-    width: 20%;
-    position: absolute;
-    bottom: -25%;
-    left: -8%;
+    width: 30%;
+    margin-left: -14%;
+    margin-bottom: -14%;
 }
-
 
 /*mobile css*/
 @media (max-width: 768px) {
@@ -60,10 +61,9 @@ header {
     }
 
     #wheel {
-        width: 50%;
-        bottom: -30%;
-        left: -22%;
-
+        width: 40%;
+        margin-left: -16%;
+        margin-bottom: -16%;
     }
 
 }
