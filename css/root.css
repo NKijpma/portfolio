@@ -33,8 +33,10 @@
     --text: #e2dfda;
     --navbar: rgb(8 9 10 / 0.75);
 
-    --accent: #ff355e;
-    --accent-alt: rgb(176 176 176 / 0.9);
+    --accent-1: rgb(189 189 189 / 0.9);
+    --accent-2: #111213;
+    --accent-3: #ff355e;
+
 
 }
 
@@ -49,8 +51,8 @@
 
     --navbar: rgb(255 255 255 / 0.8);
 
-    --accent: #c0392b;
-    --accent-alt: #e74c3c;
+    --accent-3: #c0392b;
+    --accent-1: #e74c3c;
 
 }
 

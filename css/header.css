@@ -12,8 +12,8 @@ header {
     border-bottom-right-radius: 1rem;
 
     background-color: var(--fg);
-    background-image: linear-gradient(to right, var(--accent-alt) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--accent-alt) 1px, transparent 1px);
+    background-image: linear-gradient(to right, var(--accent-1) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--accent-1) 1px, transparent 1px);
     background-size: 40px 40px;
 
     font-family: var(--secondary-font);
@@ -39,14 +39,6 @@ header {
     animation: fade-out 1.4s ease-in-out infinite;
 }
 
-#wheel {
-    align-self: flex-end;
-    animation: rotate 2s linear infinite;
-    width: 30%;
-    margin-left: -14%;
-    margin-bottom: -14%;
-}
-
 /*mobile css*/
 @media (max-width: 768px) {
     header {
@@ -58,12 +50,6 @@ header {
 
     #header-title {
         top: 40%;
-    }
-
-    #wheel {
-        width: 40%;
-        margin-left: -16%;
-        margin-bottom: -16%;
     }
 
 }
