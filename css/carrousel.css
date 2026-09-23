@@ -84,4 +84,10 @@
         width: 87%;
     }
 
+    #slider-nav a,
+    #slider-nav a::after,
+    #slider-nav {
+        display: none !important;
+    }
+
 }
