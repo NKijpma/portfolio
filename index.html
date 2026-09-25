@@ -15,25 +15,24 @@
 
     <!-- root & index -->
     <link href="css/root.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet">
     <link href="css/cursor.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+
 
     <!-- css -->
-    <link href="css/navbar.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/main/navbar.css" rel="stylesheet">
+    <link href="css/main/header.css" rel="stylesheet">
+    <link href="css/main/footer.css" rel="stylesheet">
 
     <link href="css/container-top.css" rel="stylesheet">
-    <link href="css/container-center.css" rel="stylesheet">
-    <link href="css/carrousel.css" rel="stylesheet">
+    <link href="css/main/carrousel.css" rel="stylesheet">
 </head>
 <body>
 <div class="custom-cursor"></div>
 
 <!-- navigation-bar -->
 <nav>
-
     <div id="theme-switcher" onclick="toggleTheme()"></div>
 
     <div id="navigation">
@@ -52,26 +51,25 @@
 <!-- home-page -->
 <header id="home">
     <div id="header-title">NKIJPMA<span id="dot">.</span></div>
-    <img alt="" id="wheel" src="images/icons/.png">
+    <!--    <img alt="" id="wheel" src="images/icons/wheel.png">-->
 </header>
 
 <!-- main-content -->
-<div id="container-top">
+<main id="page-content">
+    <section id="information">
+        <h2 class="title">Who am I?</h2>
+        <img alt="profile picture" id="pfp" src="images/pfp.png">
 
-    <div id="information">
-        <div class="title">Who am I?<br>
-            <img alt="profile picture" id="pfp" src="images/pfp.png">
-        </div>
-        <div class="text">
+        <p class="text">
             Name: NKijpma <br>
             Age: <span id="age"></span><br>
             Nationality: Netherlands <br>
             Birthday: 05-07-2008 <br>
-        </div>
-    </div>
+        </p>
+    </section>
 
-    <div id="experience">
-        <div class="title">My experience</div>
+    <section id="experience">
+        <h2 class="title">My experience</h2>
         <div id="experience-container">
             <div class="experience-bars">
                 <div class="bar" id="html-bar"><span>HTML</span></div>
@@ -95,16 +93,12 @@
                 <div class="bar" id="sql-bar"><span>SQL</span></div>
             </div>
         </div>
-    </div>
+    </section>
 
-</div>
-
-<div id="container-center">
-
-    <div id="projects">
+    <section id="projects">
+        <h2 class="title">Projects</h2>
 
         <div id="slider-wrapper">
-
             <div id="slider">
                 <img alt="" class="slide-1 slide" id="slide-1" src="images/projects/city.gif">
                 <img alt="" class="slide-2 slide" id="slide-2" src="images/projects/ds.jpg">
@@ -113,7 +107,7 @@
                 <img alt="" class="slide-5 slide" id="slide-5" src="images/projects/hiker.jpg">
                 <img alt="" class="slide-6 slide" id="slide-6" src="images/projects/nature.jpg">
 
-                <img alt="" aria-hidden="true" src="images/projects/city.gif">
+                <img alt="" aria-hidden="true" class="slide-loop" src="images/projects/city.gif">
             </div>
 
             <div id="slider-nav">
@@ -124,23 +118,43 @@
                 <a href="#slide-5"></a>
                 <a href="#slide-6"></a>
             </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+
+        <div id="linux">
+            <img alt="" src="images/hobbies/nixos.png">
+            <p>
+                As of 2026 I started getting more into what <strong><a
+                    href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a></strong> is and what its
+                benefits are.<br>
+                My first hands-on experience with a <strong><a href="https://en.wikipedia.org/wiki/Linux_distribution"
+                                                               target="_blank">Linux
+                distro</a></strong> was <strong><a href="https://archlinux.org/" target="_blank">Arch</a> + <a
+                    href="https://bspwm.org/" target="_blank">Bspwm</a></strong>.<br>
+                After that I started using <strong> <a href="https://nixos.org/" target="_blank">NixOS</a> + <a
+                    href="https://hypr.land/" target="_blank">Hyprland</a></strong> as my daily driver.<br>
+                As of September 2026 I started creating my own <strong><a href="https://namishh.com/blog/ricing/"
+                                                                          target="_blank">Linux rice</a></strong>.
+            </p>
+        </div>
+
+        <div id="pixel-art">
 
         </div>
 
-    </div>
+        <div id="gaming">
 
-    <div id="hobbies"></div>
+        </div>
+    </section>
 
-</div>
-
-<div id="container-bottom">
-
-    <div id="internship">
-        <div class="title"></div>
+    <section id="internship">
+        <h2 class="title"></h2>
         <div class="text"></div>
-    </div>
-
-</div>
+    </section>
+</main>
 
 <footer>
     <div id="CV-download">󰥥</div>

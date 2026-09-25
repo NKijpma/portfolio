@@ -1,8 +1,6 @@
 #projects {
     width: 100%;
-
     margin-top: 4rem;
-    margin-bottom: 10rem;
 }
 
 #slider-wrapper {
@@ -31,6 +29,7 @@
     object-fit: cover;
 
     width: 1080px;
+    aspect-ratio: 16/9;
 }
 
 .slide-1 {
