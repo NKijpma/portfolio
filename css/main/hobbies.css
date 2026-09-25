@@ -1,4 +1,35 @@
-#hobbies a{
-    color:var(--accent-3);
+#hobbies a {
+    color: var(--accent-3);
     text-decoration: underline;
+}
+
+.hobbies-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 80%;
+    background-color: var(--fg);
+
+    box-shadow: rgb(255 255 255 / 0.2) 0 2px 4px, rgb(246 246 246 / 0.15) 0 7px 13px -3px, rgb(243 243 243 / 0.05) 0 -3px 0 inset;
+    padding: 1rem;
+
+    margin: 2rem auto 2rem;
+    border-radius: 2rem;
+
+}
+
+#linux {
+
+}
+
+#linux img,
+#gaming img {
+    width: 10%;
+}
+
+
+#pixel-art img {
+    width: 10%;
+    image-rendering: pixelated;
 }
