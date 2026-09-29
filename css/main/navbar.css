@@ -43,7 +43,7 @@ nav {
 /*mobile css*/
 @media (max-width: 768px) {
 
-    .nav-link {
+    #navigation {
         display: none;
     }
 
