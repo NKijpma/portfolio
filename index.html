@@ -17,7 +17,7 @@
     <link href="css/root.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet">
-    <link href="css/cursor.css" rel="stylesheet">
+    <!--    <link href="css/cursor.css" rel="stylesheet">-->
 
 
     <!-- css -->
@@ -36,17 +36,17 @@
 <nav>
     <div id="theme-switcher" onclick="toggleTheme()"></div>
 
-    <div id="navigation">
-        <a class="nav-link" href="#home"></a>
-        <a class="nav-link" href="#information">󰋼</a>
-        <a class="nav-link" href="#experience"></a>
-        <a class="nav-link" href="#projects">󱉟</a>
-        <a class="nav-link" href="#hobbies"></a>
-        <a class="nav-link" href="#internship"></a>
-    </div>
+    <ul id="navigation">
+        <li><a class="nav-link" href="#home"></a></li>
+        <li><a class="nav-link" href="#information">󰋼</a></li>
+        <li><a class="nav-link" href="#experience"></a></li>
+        <li><a class="nav-link" href="#projects">󱉟</a></li>
+        <li><a class="nav-link" href="#hobbies"></a></li>
+        <li><a class="nav-link" href="#internship"></a></li>
+    </ul>
 
-    <a href="https://github.com/NKijpma" id="github" target="_blank"><span id="github-icon"></span><span
-            id="github-name">NKijpma</span></a>
+    <a href="https://github.com/NKijpma" id="github" target="_blank"><span id="github-icon"></span>
+        <span id="github-name">NKijpma</span></a>
 </nav>
 
 <!-- home-page -->
@@ -60,44 +60,43 @@
     <section id="information">
         <h2 class="title">Who am I?</h2>
         <!--        <img alt="profile picture" id="pfp" src="images/pfp.png">-->
-
         <p class="text">
-            Name: NKijpma <br>
-            Age: <span id="age">18</span><br>
-            Nationality: Netherlands <br>
-            Birthday: 05-07-2008 <br>
+            name: NKijpma <br>
+            age: <span id="age">18</span><br>
+            nationality: netherlands <br>
+            birthday: 05-07-2008 <br>
         </p>
     </section>
 
     <section id="experience">
-        <h2 class="title">My experience</h2>
-        <div id="experience-container">
-            <div class="experience-bars">
-                <div class="bar" id="html-bar"><span>HTML</span></div>
-            </div>
-            <div class="experience-bars">
-                <div class="bar" id="css-bar"><span>CSS</span></div>
-            </div>
-            <div class="experience-bars">
-                <div class="bar" id="js-bar"><span>JS</span></div>
-            </div>
-            <div class="experience-bars">
-                <div class="bar" id="py-bar"><span>PY</span></div>
-            </div>
-            <div class="experience-bars">
-                <div class="bar" id="csharp-bar"><span>C#</span></div>
-            </div>
-            <div class="experience-bars">
-                <div class="bar" id="php-bar"><span>PHP</span></div>
-            </div>
-            <div class="experience-bars">
-                <div class="bar" id="sql-bar"><span>SQL</span></div>
-            </div>
-        </div>
+        <h2 class="title">my experience</h2>
+        <ul id="experience-container">
+            <li class="experience-bars">
+                <div class="bar" id="html-bar">HTML</div>
+            </li>
+            <li class="experience-bars">
+                <div class="bar" id="css-bar">CSS</div>
+            </li>
+            <li class="experience-bars">
+                <div class="bar" id="js-bar">JS</div>
+            </li>
+            <li class="experience-bars">
+                <div class="bar" id="py-bar">PY</div>
+            </li>
+            <li class="experience-bars">
+                <div class="bar" id="csharp-bar">C#</div>
+            </li>
+            <li class="experience-bars">
+                <div class="bar" id="php-bar">PHP</div>
+            </li>
+            <li class="experience-bars">
+                <div class="bar" id="sql-bar">SQL</div>
+            </li>
+        </ul>
     </section>
 
     <section id="projects">
-        <h2 class="title">Projects</h2>
+        <h2 class="title">projects</h2>
 
         <div id="slider-wrapper">
             <div id="slider">
@@ -124,48 +123,46 @@
 
     <section id="internship">
         <h2 class="title">
-            Internship
+            internship
         </h2>
         <div class="text">
             <p>
-                Coding related internships:<br>
-                As of September 2026 I have no coding related internships.
+                coding related internships:<br>
+                as of september 2026 I have no coding related internships.
 
-                Internships:
-                Primary school,
-                Physiologist
-
-
+                internships:
+                primary school,
+                physiologist
             </p>
         </div>
     </section>
 
     <section id="hobbies">
-        <h2 class="title">Hobbies</h2>
+        <h2 class="title">hobbies</h2>
 
-        <div class="hobbies-container" id="linux">
+        <div class="hobbies-container" id="Linux">
             <h2 class="title">Linux </h2>
             <!--            <img alt="" src="images/hobbies/nixos.png">-->
             <p class="">
-                As of 2026 I started getting more into what <strong><a
-                    href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a></strong> is and what its
+                as of 2026 I started getting more into what <strong><a
+                    href="https://en.wikipedia.org/wiki/linux" target="_blank">Linux</a></strong> is and what its
                 benefits are.
-                My first hands-on experience with a <strong><a href="https://en.wikipedia.org/wiki/Linux_distribution"
+                my first hands-on experience with a <strong><a href="https://en.wikipedia.org/wiki/linux_distribution"
                                                                target="_blank">Linux
-                distro</a></strong> was <strong><a href="https://archlinux.org/" target="_blank">Arch</a> + <a
-                    href="https://bspwm.org/" target="_blank">Bspwm</a></strong>. After that I started using <strong> <a
-                    href="https://nixos.org/" target="_blank">NixOS</a> + <a
-                    href="https://hypr.land/" target="_blank">Hyprland</a></strong> as my daily driver.
-                As of September 2026 I started creating my own <strong><a href="https://namishh.com/blog/ricing/"
+                distro</a></strong> was <strong><a href="https://archlinux.org/" target="_blank">arch</a> + <a
+                    href="https://bspwm.org/" target="_blank">bspwm</a></strong>. after that I started using <strong> <a
+                    href="https://nixos.org/" target="_blank">nixos</a> + <a
+                    href="https://hypr.land/" target="_blank">hyprland</a></strong> as my daily driver.
+                as of september 2026 I started creating my own <strong><a href="https://namishh.com/blog/ricing/"
                                                                           target="_blank">Linux rice</a></strong>.
             </p>
         </div>
 
         <div class="hobbies-container" id="pixel-art">
-            <h2 class="title">Pixel Art 󰽉</h2>
+            <h2 class="title">pixel art 󰽉</h2>
             <p>
-                In my free time I sometimes like to make pixel-art.<br>
-                The primary program I use for pixel-art is <strong><a href="https://www.aseprite.org/" target="_blank">Aseprite</a></strong>.<br>
+                in my free time I sometimes like to make pixel-art.<br>
+                the primary program I use for pixel-art is <strong><a href="https://www.aseprite.org/" target="_blank">aseprite</a></strong>.<br>
             </p>
 
             <img alt="" src="images/hobbies/pixelart/spiderbot.png">
@@ -174,15 +171,15 @@
         </div>
 
         <div class="hobbies-container" id="gaming">
-            <h2 class="title">Gaming </h2>
+            <h2 class="title">gaming </h2>
             <p>
-                The platform I use to play my games on is <strong><a href="https://store.steampowered.com/"
+                the platform I use to play my games on is <strong><a href="https://store.steampowered.com/"
                                                                      target="_blank">steam</a></strong>.<br>
-                Some games I like playing the most are: <strong><a
-                    href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/"
-                    target="_blank">TBOI</a></strong>, <strong><a
-                    href="https://store.steampowered.com/app/1574820/Until_Then/" target="_blank">Until
-                Then</a></strong>, <strong><a href="https://store.steampowered.com/app/420530/OneShot/" target="_blank">OneShot</a></strong>
+                some games I like playing the most are: <strong><a
+                    href="https://store.steampowered.com/app/250900/the_binding_of_isaac_rebirth/"
+                    target="_blank">tboi</a></strong>, <strong><a
+                    href="https://store.steampowered.com/app/1574820/until_then/" target="_blank">until
+                then</a></strong>, <strong><a href="https://store.steampowered.com/app/420530/oneshot/" target="_blank">oneshot</a></strong>
             </p>
 
         </div>

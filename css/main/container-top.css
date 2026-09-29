@@ -3,16 +3,15 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 40%;
     font-size: var(--xlfs);
     font-weight: bold;
-}
-
-#experience .title {
+    margin: 0 auto;
     width: 100%;
     align-items: center;
     text-align: center;
 }
+
+
 
 .text {
     width: 60%;
@@ -22,7 +21,6 @@
 
 #information, #experience {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
 
     width: 80%;
@@ -33,6 +31,8 @@
 
     margin: 2rem auto 2rem;
     border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -49,6 +49,7 @@
 #experience {
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 }
 
 #pfp {
@@ -110,6 +111,6 @@
 /*mobile css*/
 @media (max-width: 768px) {
     #pfp {
-        width: 100%;
+        width: 30%;
     }
 }

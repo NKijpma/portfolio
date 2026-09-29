@@ -18,18 +18,13 @@ header {
 
     font-family: var(--secondary-font);
 
-
 }
 
 #header-title {
     font-size: var(--xxlfs);
 
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%);
-    position: absolute;
-
-    text-align: center;
+    margin: 0 auto;
+    align-self: center;
 
 }
 
@@ -46,10 +41,6 @@ header {
         border-bottom-left-radius: 0.8rem !important;
         border-bottom-right-radius: 0.8rem !important;
         overflow: hidden;
-    }
-
-    #header-title {
-        top: 40%;
     }
 
 }

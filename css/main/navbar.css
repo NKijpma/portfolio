@@ -2,16 +2,17 @@ nav {
     position: fixed;
     z-index: 999;
     padding: 0 2rem;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
 
     border-bottom-left-radius: 0.4rem;
     border-bottom-right-radius: 0.4rem;
 
     background-color: var(--navbar);
-    font-family: JetbrainsMonoNF;
+    font-family: var(--primary-font);
 
 }
 
@@ -21,18 +22,11 @@ nav {
 }
 
 #navigation {
-    justify-self: center;
-    letter-spacing: 6px;
-}
+    display: flex;
+    margin: 0 auto;
+    letter-spacing: 20px;
+    justify-content: center;
 
-.nav-link {
-    position: relative;
-}
-
-#navigation a::after {
-    content: "";
-    position: absolute;
-    inset: -8px;
 }
 
 #github {
@@ -41,7 +35,7 @@ nav {
 }
 
 #github-icon {
-    font-size: 100%;
+    font-size: var(--largefs);
     margin-right: .5rem;
 }
 
