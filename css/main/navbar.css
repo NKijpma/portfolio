@@ -47,6 +47,10 @@ nav {
         display: none;
     }
 
+    ul, li {
+        list-style: none;
+    }
+
     #github-name {
         display: none;
     }
