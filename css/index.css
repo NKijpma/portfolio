@@ -57,4 +57,9 @@ a {
         cursor: auto !important;
     }
 
+    html {
+        overscroll-behavior-y: auto !important;
+
+    }
+
 }
