@@ -9,7 +9,6 @@ html {
     scrollbar-color: #ececec transparent;
     margin: 0;
     padding: 0;
-    cursor: none;
 
 
 }
@@ -18,12 +17,12 @@ body {
     margin: 0;
     padding: 0;
 
-    transition: background-color .25s, color .2s;
-
 }
 
 html, body {
     height: 100%;
+    cursor: none;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
 
 }
 
@@ -31,12 +30,15 @@ html, body {
 * {
     box-sizing: border-box;
     cursor: none;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+
 }
 
 img {
     user-select: none;
     pointer-events: none;
 }
+
 
 i {
     margin: 0;
