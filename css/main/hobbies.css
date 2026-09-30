@@ -20,17 +20,21 @@
 
 }
 
-#linux {
-
-}
-
-#linux img,
-#gaming img {
-    width: 10%;
+#pixel-art-images {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
 }
 
 
 #pixel-art img {
-    width: 10%;
+    width: 33%;
     image-rendering: pixelated;
+}
+
+@media (max-width: 768px) {
+
+
+
 }
