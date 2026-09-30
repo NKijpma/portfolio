@@ -1,0 +1,12 @@
+#pfp {
+    border-radius: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+/*mobile css*/
+@media (max-width: 768px) {
+    #pfp {
+        width: 30%;
+    }
+}

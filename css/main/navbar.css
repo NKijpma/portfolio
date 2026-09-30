@@ -30,20 +30,29 @@ nav {
 }
 
 #github {
-    justify-self: end;
-    line-height: 1;
+    display: flex;
+    font-weight: bold;
+    justify-content: end;
+    justify-items: end;
+}
+
+#github-name {
 }
 
 #github-icon {
+    line-height: 1;
     font-size: var(--largefs);
-    margin-right: .5rem;
 }
-
 
 /*mobile css*/
 @media (max-width: 768px) {
 
-    #navigation {
+    nav {
+        position: sticky;
+
+    }
+
+    .nav-link {
         display: none;
     }
 
@@ -55,9 +64,9 @@ nav {
         display: none;
     }
 
-    #github-icon, #theme-switcher {
-        margin: 0;
+    #github-icon {
+        line-height: normal;
+        justify-content: end;
     }
-
 
 }

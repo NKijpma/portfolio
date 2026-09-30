@@ -1,0 +1,58 @@
+
+#experience {
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+#experience-container {
+    width: 100%;
+    background-color: var(--accent-2);
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+}
+
+.experience-bars {
+    width: 90%;
+    height: 1rem;
+    background-color: var(--fg-alt);
+    border-radius: 0.5rem;
+    margin: 0.8rem;
+
+}
+
+.bar {
+    background-color: var(--accent-3);
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+#html-bar {
+    width: 80%;
+}
+
+#css-bar {
+    width: 60%;
+}
+
+#js-bar {
+    width: 35%;
+}
+
+#py-bar {
+    width: 50%;
+}
+
+#csharp-bar {
+    width: 55%;
+}
+
+#php-bar {
+    width: 42%;
+}
+
+#sql-bar {
+    width: 60%;
+}
+
