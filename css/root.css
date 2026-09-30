@@ -56,11 +56,3 @@
     --accent-2: #e74c3c;
     --accent-3: #c0392b;
 }
-
-@media (max-width: 768px) {
-    :root {
-        --cursor-size: 0;
-
-    }
-
-}
