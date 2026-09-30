@@ -13,11 +13,11 @@
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
 
-    <!-- root & index -->
+    <!-- important css -->
     <link href="css/root.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet">
-    <!--    <link href="css/cursor.css" rel="stylesheet">-->
+    <link href="css/cursor.css" rel="stylesheet">
 
     <!-- css -->
     <link href="css/main/navbar.css" rel="stylesheet">
@@ -29,7 +29,7 @@
     <link href="css/main/experience.css" rel="stylesheet">
     <link href="css/main/intership.css" rel="stylesheet">
     <link href="css/main/hobbies.css" rel="stylesheet">
-    <link href="css/main/carrousel.css" rel="stylesheet">
+    <link href="css/main/projects.css" rel="stylesheet">
 </head>
 <body>
 <div class="custom-cursor"></div>
@@ -48,7 +48,6 @@
     </ul>
     <a href="https://github.com/NKijpma" id="github" target="_blank"><span id="github-icon"></span>&nbsp;<span
             id="github-name">NKIJPMA</span></a>
-
 </nav>
 
 <!-- home-page -->
@@ -123,7 +122,7 @@
         </div>
     </section>
 
-    <section id="internship">
+    <section class="container" id="internship">
         <h2 class="title">
             internship
         </h2>
@@ -144,9 +143,8 @@
 
         <div class="container" id="Linux">
             <h2 class="title">Linux </h2>
-            <!--            <img alt="" src="images/hobbies/nixos.png">-->
             <p class="">
-                as of 2026 I started getting more into what <strong><a
+                As of 2026 I started getting more into what <strong><a
                     href="https://en.wikipedia.org/wiki/linux" target="_blank">Linux</a></strong> is and what its
                 benefits are.
                 my first hands-on experience with a <strong><a href="https://en.wikipedia.org/wiki/linux_distribution"
@@ -166,10 +164,11 @@
                 in my free time I sometimes like to make pixel-art.<br>
                 the primary program I use for pixel-art is <strong><a href="https://www.aseprite.org/" target="_blank">aseprite</a></strong>.<br>
             </p>
-
-            <img alt="" src="images/hobbies/pixelart/spiderbot.png">
-            <img alt="" src="images/hobbies/pixelart/spellcaster.png">
-            <img alt="" src="images/hobbies/pixelart/observatoryred.png">
+            <figure id="pixel-art-images">
+                <img alt="pixel art of a robot spider" src="images/hobbies/pixelart/spiderbot.png">
+                <img alt="pixel art of a spellcaster" src="images/hobbies/pixelart/spellcaster.png">
+                <img alt="pixel art of a mushroom observatory" src="images/hobbies/pixelart/observatoryred.png">
+            </figure>
         </div>
 
         <div class="container" id="gaming">
@@ -183,14 +182,13 @@
                     href="https://store.steampowered.com/app/1574820/until_then/" target="_blank">until
                 then</a></strong>, <strong><a href="https://store.steampowered.com/app/420530/oneshot/" target="_blank">oneshot</a></strong>
             </p>
-
         </div>
     </section>
 
 </main>
 
 <footer>
-    <div id="CV-download">󰥥</div>
+    <a href=""></a>
 </footer>
 
 <script defer src="js/custom-cursor.js"></script>

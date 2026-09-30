@@ -58,9 +58,6 @@ a {
 }
 
 @media (max-width: 768px) {
-    * {
-        cursor: auto !important;
-    }
 
     html {
         overscroll-behavior-y: auto !important;

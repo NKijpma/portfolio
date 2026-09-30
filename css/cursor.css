@@ -1,7 +1,6 @@
 html, body, * {
-    cursor:none;
+    cursor: none;
 }
-
 
 .custom-cursor {
     position: fixed;
@@ -22,7 +21,6 @@ html, body, * {
     pointer-events: none;
 
     transition: opacity .25s;
-
 
 }
 
@@ -53,4 +51,11 @@ html, body, * {
 
 .custom-cursor.enter {
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+    html, body, * {
+        cursor: auto !important;
+    }
+
 }
