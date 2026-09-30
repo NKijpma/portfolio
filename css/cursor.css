@@ -58,4 +58,8 @@ html, body, * {
         cursor: auto !important;
     }
 
+    .custom-cursor {
+        display: none !important;
+    }
+
 }

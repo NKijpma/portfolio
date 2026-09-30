@@ -12,8 +12,7 @@
 :root {
     /*cursor*/
     --cursor-size: 24px;
-    --cursor-color: #7bf7ff;
-
+    --cursor-color: #7e3ffd;
 
     /*font*/
     --primary-font: "JetbrainsMonoNF", monospace;
@@ -37,17 +36,14 @@
     --accent-1: rgb(189 189 189 / 0.9);
     --accent-2: #111213;
     --accent-3: #ff355e;
-
-
 }
 
 :root[data-theme="light"] {
 
-    --cursor-color: #60b919;
+    --cursor-color: #7FFF7F;
 
-
+    /*colors*/
     --bg: #f5f5f4;
-    --bg-alt: #e8e7e5;
 
     --fg: #ffffff;
     --fg-alt: #ececea;
@@ -56,9 +52,9 @@
 
     --navbar: rgb(255 255 255 / 0.8);
 
-    --accent-3: #c0392b;
     --accent-1: #e74c3c;
-
+    --accent-2: #e74c3c;
+    --accent-3: #c0392b;
 }
 
 @media (max-width: 768px) {
