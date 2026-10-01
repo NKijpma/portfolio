@@ -7,12 +7,13 @@
 
 #experience-container {
     width: 100%;
-    background-color: var(--accent-2);
+    background-color: var();
     border-radius: 0.5rem;
     padding: 1.2rem;
 }
 
 .experience-bars {
+    position: relative;
     width: 90%;
     height: 1rem;
     background-color: var(--fg-alt);
@@ -25,32 +26,14 @@
     background-color: var(--accent-3);
     height: 100%;
     border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
 }
 
-#html-bar {
-    width: 80%;
-}
-
-#css-bar {
-    width: 60%;
-}
-
-#js-bar {
-    width: 35%;
-}
-
-#py-bar {
-    width: 50%;
-}
-
-#csharp-bar {
-    width: 55%;
-}
-
-#php-bar {
-    width: 42%;
-}
-
-#sql-bar {
-    width: 60%;
+.percentage {
+    position: relative;
+    margin: 0 auto;
+    font-size: var(--smallfs);
+    border-radius: 0.5rem;
 }

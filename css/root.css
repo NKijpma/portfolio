@@ -36,6 +36,8 @@
     --accent-1: rgb(189 189 189 / 0.9);
     --accent-2: #111213;
     --accent-3: #ff355e;
+
+    --box-shadow: rgb(255 255 255 / 0.2) 0 2px 4px, rgb(246 246 246 / 0.15) 0 7px 13px -3px, rgb(243 243 243 / 0.05) 0 -3px 0 inset;;
 }
 
 :root[data-theme="light"] {
@@ -43,16 +45,16 @@
     --cursor-color: #7FFF7F;
 
     /*colors*/
-    --bg: #f5f5f4;
-
-    --fg: #ffffff;
-    --fg-alt: #ececea;
+    --bg: #ffffff;
+    --fg: #f8f8fa;
+    --fg-alt: #e6e4e3;
 
     --text: #1a1a1a;
-
     --navbar: rgb(255 255 255 / 0.8);
 
-    --accent-1: #e74c3c;
+    --accent-1: rgb(66 66 66 / 0.9);
     --accent-2: #e74c3c;
-    --accent-3: #c0392b;
+    --accent-3: #00cba1;
+
+    --box-shadow: rgb(0 0 0 / 0.2) 0 2px 4px, rgb(9 9 9 / 0.15) 0 7px 13px -3px, rgb(12 12 12 / 0.05) 0 -3px 0 inset;
 }
