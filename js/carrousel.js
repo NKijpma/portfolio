@@ -1,45 +1,30 @@
 const sliderContainer = document.getElementById('slider');
-const slideCounter = document.querySelectorAll('.slide').length;
+const slides = Array.from(sliderContainer.querySelectorAll('.slide'));
+const slideCounter = slides.length;
 
-// looping left
+const firstClone = slides[0].cloneNode();
+firstClone.classList.add('slide-loop');
+firstClone.setAttribute('aria-hidden', 'true');
+firstClone.removeAttribute('id');
+
+const lastClone = slides[slideCounter - 1].cloneNode();
+lastClone.classList.add('slide-loop');
+lastClone.setAttribute('aria-hidden', 'true');
+lastClone.removeAttribute('id');
+
+sliderContainer.insertBefore(lastClone, slides[0]);
+sliderContainer.appendChild(firstClone);
+
+// looping
 sliderContainer.addEventListener('scrollend', () => {
     const index = Math.round(sliderContainer.scrollLeft / sliderContainer.clientWidth);
-    if (index >= slideCounter) {
+    if (index >= slideCounter + 1) {
         sliderContainer.style.scrollBehavior = 'auto';
-        sliderContainer.scrollLeft = 0;
+        sliderContainer.scrollLeft = sliderContainer.clientWidth;
         sliderContainer.style.scrollBehavior = 'smooth';
-        sliderContainer.classList.remove('dragging');
+    } else if (index <= 0) {
+        sliderContainer.style.scrollBehavior = 'auto';
+        sliderContainer.scrollLeft = sliderContainer.clientWidth * slideCounter;
+        sliderContainer.style.scrollBehavior = 'smooth';
     }
 });
-
-//
-// // draggable
-// let pressed = false;
-// let startX;
-// let scrollStart;
-//
-// sliderContainer.addEventListener('mousedown', (e) => {
-//     pressed = true;
-//     startX = e.pageX;
-//     scrollStart = sliderContainer.scrollLeft;
-//     sliderContainer.classList.add('dragging');
-//     sliderContainer.style.scrollBehavior = 'auto';
-// });
-//
-// sliderContainer.addEventListener('mouseup', () => {
-//     pressed = false;
-//     sliderContainer.classList.remove('dragging');
-//     sliderContainer.style.scrollBehavior = 'smooth';
-// });
-//
-// sliderContainer.addEventListener('mouseleave', () => {
-//     pressed = false;
-//     sliderContainer.classList.remove('dragging');
-// });
-//
-// sliderContainer.addEventListener('mousemove', (e) => {
-//     if (!pressed) return;
-//     e.preventDefault();
-//     const X = e.pageX - startX;
-//     sliderContainer.scrollLeft = scrollStart - X;
-// });
