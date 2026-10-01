@@ -19,11 +19,11 @@
     --secondary-font: "Dotimpact", monospace;
 
     /*font sizes*/
-    --smallfs: clamp(0.75rem, 1.5vw, 0.875rem);
-    --mediumfs: clamp(0.875rem, 2vw, 1rem);
-    --largefs: clamp(1rem, 2.5vw, 1.25rem);
-    --xlfs: clamp(1.25rem, 3vw, 2rem);
-    --xxlfs: clamp(5rem, 9vw, 9rem);
+    --smallfs: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);
+    --mediumfs: clamp(0.875rem, 0.85rem + 0.2vw, 1rem);
+    --largefs: clamp(1rem, 0.9rem + 0.4vw, 1.25rem);
+    --xlfs: clamp(1.25rem, 1rem + 1.1vw, 2rem);
+    --xxlfs: clamp(5rem, 3.9rem + 5.7vw, 9rem);
 
     /*colors*/
     --bg: #0a0b0d;
