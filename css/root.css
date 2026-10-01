@@ -34,8 +34,7 @@
     --navbar: rgb(5 0 7 / 0.75);
 
     --accent-1: rgb(189 189 189 / 0.9);
-    --accent-2: #111213;
-    --accent-3: #ff355e;
+    --accent-2: #ff355e;
 
     --box-shadow: rgba(255, 255, 255, 0.18) 0px 2px 3px;
 }
@@ -50,11 +49,10 @@
     --fg-alt: #e6e4e3;
 
     --text: #1a1a1a;
-    --navbar: rgb(255 255 255 / 0.8);
+    --navbar: rgb(250 255 248 / 0.75);
 
     --accent-1: rgb(66 66 66 / 0.9);
-    --accent-2: #e74c3c;
-    --accent-3: #00cba1;
+    --accent-2: #00cba1;
 
     --box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 3px;
 }
