@@ -37,7 +37,7 @@
     --accent-2: #111213;
     --accent-3: #ff355e;
 
-    --box-shadow: rgba(255, 255, 255, 0.04) 0px 3px 5px;
+    --box-shadow: rgba(255, 255, 255, 0.18) 0px 2px 3px;
 }
 
 :root[data-theme="light"] {
@@ -56,5 +56,5 @@
     --accent-2: #e74c3c;
     --accent-3: #00cba1;
 
-    --box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    --box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 3px;
 }
