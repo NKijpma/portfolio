@@ -1,10 +1,8 @@
 
-make caro draggable
+make caro draggable ( top to bottom card shuffle caro maybe)
 
 turn hobbies into some type of caro
 
 add custom scroll bar underneath the nav bar / white progress bar
-
-fix navbar
 
 make a box shadow that switches with the root (theme) swap

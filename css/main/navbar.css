@@ -46,11 +46,8 @@ nav {
         position: sticky;
     }
 
-    .nav-link {
-        display: none;
-    }
-
     #github-name {
+        position: absolute;
         display: none;
     }
 

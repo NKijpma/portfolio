@@ -1,4 +1,6 @@
-const cursor = document.querySelector(".custom-cursor");
+const cursor = document.getElementById("cursor");
+cursor.classList.add("custom-cursor");
+document.documentElement.classList.add('js-cursor');
 
 window.addEventListener("mousedown", (event) => {
     if (!cursor.classList.contains("click")) {
@@ -8,7 +10,6 @@ window.addEventListener("mousedown", (event) => {
             cursor.classList.remove("click");
 
         }, 800)
-
     }
 });
 
@@ -22,9 +23,9 @@ window.addEventListener("mousemove", (event) => {
 });
 
 document.addEventListener("mouseout", (event) => {
+    if (event.relatedTarget !== null) return;
     cursor.classList.remove("enter");
     cursor.classList.add("leave");
-
 });
 
 document.addEventListener("mouseover", (event) => {

@@ -1,4 +1,4 @@
-html, body, * {
+html.js-cursor, html.js-cursor body, html.js-cursor * {
     cursor: none;
 }
 
@@ -21,7 +21,6 @@ html, body, * {
     pointer-events: none;
 
     transition: opacity .25s;
-
 }
 
 .custom-cursor::before {
