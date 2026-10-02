@@ -40,7 +40,6 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
-
 }
 
 #slider-nav a {
@@ -51,7 +50,6 @@
     background-color: #fff;
     opacity: 0.75;
     transition: opacity ease 0.25s;
-
 }
 
 #slider-nav a::after {
@@ -83,5 +81,4 @@
     #slider-nav {
         display: none !important;
     }
-
 }

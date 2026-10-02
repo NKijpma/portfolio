@@ -1,10 +1,14 @@
 
 make caro draggable ( top to bottom card shuffle caro maybe)
 
+projects caro does not start on the 1st images instead it starts on the left loop img
+lazy way is to spawn a <a> then just go to slide 1
+figure out how to create a start offset
+
+also fix projects caro <a> nav changed it to ul and li
+
 turn hobbies into some type of caro
 
 add custom scroll bar underneath the nav bar / white progress bar
-
-make a box shadow that switches with the root (theme) swap
 
 add to project images bottom left github icon to go to repo
