@@ -1,5 +1,6 @@
 nav {
     position: fixed;
+    top: 0;
     z-index: 999;
     padding: 0 1.2rem;
     width: 100%;
@@ -8,15 +9,17 @@ nav {
     align-items: center;
     justify-content: space-between;
 
-    border-bottom-left-radius: 0.4rem;
-    border-bottom-right-radius: 0.4rem;
-
     background-color: var(--navbar);
     font-family: var(--primary-font);
 }
 
+#theme-switcher, #navigation, #github, #github-icon {
+    color: var(--accent-3);
+
+}
+
 #theme-switcher {
-    justify-self: start;
+    justify-self: flex-start;
     width: 2rem;
 }
 
@@ -24,14 +27,13 @@ nav {
     display: flex;
     margin: 0 auto;
     letter-spacing: 20px;
-    justify-content: center;
+    justify-self: center;
 }
 
 #github {
     display: flex;
     font-weight: bold;
-    justify-content: end;
-    justify-items: end;
+    justify-self: flex-end;
 }
 
 #github-icon {
