@@ -1,16 +1,13 @@
 /*font*/
 @font-face {
     font-family: "JetbrainsMonoNF";
-    src: url("../fonts/JetBrainsMonoNerdFont-Regular.woff2") format("woff2"),
-    url("../fonts/JetBrainsMonoNerdFont-Regular.ttf") format("truetype");
-    font-display: swap;
+    src: url("../fonts/JetBrainsMonoNerdFont-Regular.woff2") format("woff2");
+
 }
 
 @font-face {
     font-family: "Dotimpact";
-    src: url("../fonts/MPF-DOTIMPACT.woff2") format("woff2"),
-    url("../fonts/MPF-DOTIMPACT.ttf") format("truetype");
-    font-display: swap;
+    src: url("../fonts/MPF-DOTIMPACT.woff2") format("woff2");
 }
 
 :root {
