@@ -27,6 +27,10 @@ html, body {
     transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
 }
 
+h1{
+    font-weight: normal;
+}
+
 img {
     user-select: none;
     pointer-events: none;
