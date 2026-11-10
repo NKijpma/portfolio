@@ -68,12 +68,7 @@ nav {
         font-size: var(--extrasmallfs);
     }
 
-    #github-name {
-        position: absolute;
+    #github-name, #github-icon {
         display: none;
-    }
-
-    #github-icon {
-      display: none;
     }
 }
