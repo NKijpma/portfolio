@@ -74,7 +74,6 @@ nav {
     }
 
     #github-icon {
-        line-height: normal;
-        justify-content: end;
+      display: none;
     }
 }
