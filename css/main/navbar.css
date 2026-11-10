@@ -54,7 +54,7 @@ nav {
 
     nav {
         position: sticky;
-        font-size: var(--smallfs);
+        font-size: var(--extrasmallfs);
         padding: 0 0.2rem;
 
     }
