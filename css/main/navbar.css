@@ -15,19 +15,27 @@ nav {
 
 #theme-switcher, #navigation, #github, #github-icon {
     color: var(--accent-3);
+}
 
+.nav-icon {
+    margin: 0 0.6rem;
+}
+
+.nav-text {
+    margin-left: 0.4rem;
+    font-size: var(--smallfs);
 }
 
 #theme-switcher {
     justify-self: flex-start;
-    width: 2rem;
+    font-size: var(--mediumfs);
 }
 
 #navigation {
     display: flex;
     margin: 0 auto;
-    letter-spacing: 20px;
-    justify-self: center;
+    justify-self: anchor-center;
+
 }
 
 #github {
@@ -46,6 +54,18 @@ nav {
 
     nav {
         position: sticky;
+        font-size: var(--smallfs);
+        padding: 0 0.2rem;
+
+    }
+
+    .nav-icon {
+        margin: 0 0.4rem;
+    }
+
+    .nav-text {
+        margin: 0 auto;
+        font-size: var(--extrasmallfs);
     }
 
     #github-name {

@@ -20,6 +20,7 @@
     --secondary-font: "Dotimpact", monospace;
 
     /*font sizes*/
+    --extrasmallfs: clamp(0.625rem, 0.6rem + 0.15vw, 0.75rem);
     --smallfs: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);
     --mediumfs: clamp(0.875rem, 0.85rem + 0.2vw, 1rem);
     --largefs: clamp(1rem, 0.9rem + 0.4vw, 1.25rem);
